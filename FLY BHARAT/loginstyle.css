@@ -58,6 +58,7 @@ body{
             
             /* username and password */
             label {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
             color: rgb(255, 255, 255);
             text-transform: uppercase;
             font-size: 15px; 
@@ -91,5 +92,6 @@ body{
                     font-size: 12px;                   
                     text-transform: uppercase;              
                 }
+
 
                 
