@@ -8,6 +8,7 @@
 /* FULL BODY  */
 body {
     font-family: Arial, sans-serif;
+    background: url('sunset-silhouette-airplane-.jpg');  
     
 }
 
@@ -59,3 +60,5 @@ background: linear-gradient(90deg, rgba(98,189,130,1) 0%, rgba(1,211,255,1) 100%
     
     .form-group label {
         font-weight
+    }
+
