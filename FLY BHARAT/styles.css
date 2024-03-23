@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* FULL BODY  */
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+ /* HEADER NAME  */
+header {
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    padding: 10px;
+    margin: 00px;
+    text-align: center;
+     color:rgb(0, 0, 0)
+
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+.button {
+    display: block;
+    width: 0px;
+}
+
+    .container{
+        text-align: right;
+        margin: 10px;
+        height: 30px;
+
+    }
+
+    /* booking form  */
+    .booking-form {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: 50px auto;
+        padding: 20px;
+        /* background-color: white; */
+        background: rgb(98,189,130);
+background: linear-gradient(90deg, rgba(98,189,130,1) 0%, rgba(1,211,255,1) 100%);
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+        border-radius: 5px;
+    }
+    
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    
+    .form-group label {
+        font-weight

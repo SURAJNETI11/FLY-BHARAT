@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Website</title>
-  </head>
-  <body>
-    <button onclick="location.href='login.html';">login</button>
-  </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Air Ticket Booking</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to FLY BHARAT Booking</h1>
+
+        <!-- login  -->
+    <div class="container">
+
+		<button class="login-button">Login</button>
+	</div>
+
+    </header>
+
+
+    <form class="booking-form">
+		<div class="form-group">
+			<label for="from">From:</label>
+			<input type="text" id="from" name="from" required>
+		</div>
+		<div class="form-group">
+			<label for="to">To:</label>
+			<input type="text" id="to" name="to" required>
+		</div>
+		<div class="form-group">
+			<label for="departure">Departure:</label>
+			<input type="date" id="departure" name="departure" required>
+		</div>
+		<div class="form-group">
+			<label for="traveller">Traveller:</label>
+			<input type="text" id="traveller" name="traveller" required>
+		</div>
+		<button class="submit-button" type="submit">Search</button>
+	</form>
+</body>
+
 </html>
